@@ -4,7 +4,7 @@ class Zarfim() :
     def __init__(self) -> None:
         pass
         
-    def get_detail_from_name(self, search_term : str) -> dict:
+    def get_detail_from_name(self, search_term : str ) -> dict:
         """
         Retrieves details of movies based on a search term.
 
@@ -45,8 +45,9 @@ class Zarfim() :
                 url = f"https://zarfilm.com/page/{page}/?s={search_term.replace(' ' , '+')}"
                 try :
                     response = get(url)
+                    
                 except :
-                    return {'status code': '0', 'data': 'Network Error'}
+                    return {'status code': '0', 'data': 'Network Error' , 'error' : response.content}
                 soup = BeautifulSoup(response.content, 'html.parser')
 
                 if  'شما' not in soup.title.text :

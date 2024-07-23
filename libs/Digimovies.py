@@ -4,7 +4,7 @@ class DigiMovies() :
     def __init__(self) -> None:
         pass
         
-    def get_detail_from_name(self, search_term : str) -> dict:
+    def get_detail_from_name(self, search_term : str ) -> dict:
         """
         Retrieves details of movies based on a search term from the Digimoviez website.
 
@@ -35,14 +35,17 @@ class DigiMovies() :
             while True :
                 url = f"https://digimoviez.com/page/{page}/?s={search_term.replace(' ' , '+')}"
                 try :
-                    response = get(url)
+                    response = get(url )
                 except :
                     return {'status code': '1', 'data': 'Network Error'}
                 soup = BeautifulSoup(response.content, 'html.parser')
 
+                if 'Security'  in  soup.title.text:
+                    return {'status code': '1', 'data': 'Failed to connect site.'}
+                    
                 if soup.title.text == 'صفحه پیدا نشد - دیجی موویز' :
                     break
-                
+
                 for link in soup.find_all('h2', class_='lato_font'):
                     imgs = soup.find_all('img', class_='attachment-poster_thumbnail')
                     link_soup = BeautifulSoup(str(link), 'html.parser')
@@ -50,6 +53,7 @@ class DigiMovies() :
                     href_link = link_soup.find('a').get('href')
                     img_link = img_soup.find('img').get('src')
                     title_link = link_soup.text
+                    print('ok5')
                     links[str(counter)] = {
                         'title' : title_link.replace('دانلود فیلم', '').replace('دانلود سریال' , '').replace('دانلود انیمیشن' , '').replace('دانلود مستند' , '').replace(' ',''),
                         'src' : href_link,
@@ -96,3 +100,7 @@ class DigiMovies() :
             return {'title': title, 'src': links, 'img': img , 'copyright' : 'digimoviez.com'}
         except :
             return {'status code': '1', 'data': 'Failed to run the proper service.'}
+        
+
+
+
