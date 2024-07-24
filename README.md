@@ -11,11 +11,10 @@
   <p align="center">
     با فیلم فلو به راحتی از سایت های مختلف لینک دانلود دریافت کنید.
     <br />
-    <a href="https://github.com/mohamadrzm/FilmFlow/README.md"><strong>Explore the docs »</strong></a>
     <br />
     <br />
-    <a href="https://github.com/othneildrew/Best-README-Template">View Demo</a>
-    ·
+    <br />
+    <br />
     <a href="https://github.com/mohamadrzm/FilmFlow/issues/new?labels=bug">Report Bug</a>
     ·
     <a href="https://github.com/mohamadrzm/FilmFlowe/issues/new?labels=enhancement">Request Feature</a>
@@ -61,9 +60,10 @@
 
 ### فیلم فلو با چی ساخته شده ؟
 
-This section should list any major frameworks/libraries used to bootstrap your project. Leave any add-ons/plugins for the acknowledgements section. Here are a few examples.
+فیلم فلو با پایتون نوشته شده و از کتابخونه BeautifulSoup برای جمع آوری لینک های دانلود و لیست فیلم ها استفاده میکنه
 
-* [![Python][Python]][python-url]
+همچنین از کتابخونه های flask و fastapi برای راه اندازی رابط برنامه نویسی استفاده میکنه
+[![تکنولوژی های فیلم فلو](https://skillicons.dev/icons?i=python,flask,fastapi&theme=dark)]
 
 
 <p align="right">(<a href="#readme-top">برو بالا</a>)</p>
@@ -87,7 +87,7 @@ This section should list any major frameworks/libraries used to bootstrap your p
 ### پیش نیاز ها
 
 ابتدا با دستور زیر پکیج هایی که فیلم فلو بهشون نیاز داره رو نصب کنید :
-* pip / python
+
   ```sh
   pip install -r requirements.txt
   ```
