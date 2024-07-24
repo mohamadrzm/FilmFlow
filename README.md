@@ -63,7 +63,10 @@
 فیلم فلو با پایتون نوشته شده و از کتابخونه BeautifulSoup برای جمع آوری لینک های دانلود و لیست فیلم ها استفاده میکنه
 
 همچنین از کتابخونه های flask و fastapi برای راه اندازی رابط برنامه نویسی استفاده میکنه
-[![تکنولوژی های فیلم فلو](https://skillicons.dev/icons?i=python,flask,fastapi&theme=dark)]
+
+**تکنولوژی های فیلم فلو** :
+
+[![techs](https://skillicons.dev/icons?i=python,fastapi,flask&theme=dark)](https://www.linkedin.com/in/mohamadreza-mirjani-7841542b8/)
 
 
 <p align="right">(<a href="#readme-top">برو بالا</a>)</p>
