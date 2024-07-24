@@ -225,7 +225,6 @@
 
 <!-- LICENSE -->
 ## مجوز
-
 GPL - 3.0 License. `LICENSE.txt` 
 
 
