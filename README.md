@@ -210,16 +210,14 @@
 <!-- CONTRIBUTING -->
 ## مشارکت
 
-Contributions are what make the open source community such an amazing place to learn, inspire, and create. Any contributions you make are **greatly appreciated**.
+باعث خوشحالیه اگه با هم پروژه رو ببریم جلو :)
 
-If you have a suggestion that would make this better, please fork the repo and create a pull request. You can also simply open an issue with the tag "enhancement".
-Don't forget to give the project a star! Thanks again!
 
 1. پروژه رو فورک کنید
 2. یک برانچ جدید بسازید (`git checkout -b dev/AmazingFeature`)
 3. تغییرات خودتون رو کامیت کنید (`git commit -m 'Add some AmazingFeature'`)
-4. برانچتوت رو پوش کنید (`git push origin dev/AmazingFeature`)
-5. پول ریکوئست بزنید
+4. برانچتون رو پوش کنید (`git push origin dev/AmazingFeature`)
+5. پول ریکوئست بزنید. تمام :)  
 
 <p align="right">(<a href="#readme-top">برو بالا</a>)</p>
 
