@@ -15,9 +15,9 @@
     <br />
     <br />
     <br />
-    <a href="https://github.com/mohamadrzm/FilmFlow/issues/new?labels=bug">Report Bug</a>
+    <a href="https://github.com/mohamadrzm/FilmFlow/issues/new?labels=bug">گزارش باگ</a>
     ·
-    <a href="https://github.com/mohamadrzm/FilmFlowe/issues/new?labels=enhancement">Request Feature</a>
+    <a href="https://github.com/mohamadrzm/FilmFlowe/issues/new?labels=enhancement">پیشنهاد قابلیت جدید</a>
   </p>
 </div>
 
